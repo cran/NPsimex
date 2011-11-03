@@ -1,0 +1,1383 @@
+a=rnorm(500)
+a.den=density(a)
+a.bw=bw.nrd0(a)
+a.bw
+a.bw1=bw.nrd(a)
+a.bw1
+(0.2526633/0.5)^2
+(0.2526633/1)^2
+(0.2526633/0.02)^2
+(0.2526633/0.1)^2
+56-8-1
+4280/.8
+4280/5350
+5350-4280
+4280/8
+1070/47
+535/22.77
+535/(1070/47)
+535/22.76596
+1-(384/1200)
+qf(.05,2,7)
+qf(1-.05,2,7)
+qf(1-.05,2,30-2-1)
+((1200-384)/2)/(384/(30-2-1))
+30+0.7*30
+0.08547/0.04379
+25.625/9.15
+qt(.025,7)
+qt(.025,25-3-1)
+700/(800)
+(3500/2)/(1500/(18-2-1))
+pf(17.5,2,18-2-1)
+1-pf(17.5,2,18-2-1)
+qt(0.025,12-2-1)
+pt(-0.5171,12-2-1)
+-1.5726/0.3590
+118.5059+945*(-0.0163)+16*(-1.5726)
+(822.088/(822.088+736.012))
+(1-822.088/(822.088+736.012))
+1-(1-822.088/(822.088+736.012))*(9/7)
+(1-822.088/(822.088+736.012))*(9/7)
+1-(1-822.088/(822.088+736.012))*(9/7)
+1-(1-822.088/(822.088+736.012))
+1-(1-0.77)*9/7
+(595.14*(12+12-1))
+(595.14*(12+12-2))
+(595.14*(12+12-2))+517.38
+(595.14*(12+12-2))+517.38-13242.59
+367.87/13242
+100^(-4/5)
+100^(-4/7)
+100^(-1)
+(log(100))^(-1)
+load("/Users/wangx6/Dropbox/Research/Model-based Boosting/ref/Bioinf Data/BreathCancerData/GSE6532/LUMINAL")
+LUMINAL
+data.untreated[1:3]
+data.untreated[1:3,]
+data.untreated[1,]
+dim(data.untreated)
+data.untreated[,1]
+data.untreated[,1:3]
+plot(density(data.untreated[1,]))
+plot(density(data.untreated[2,]))
+plot(density(data.untreated[5,]))
+qnorm(.9)
+qnorm(.03)
+(215/250)
+(215/250-0.9)/sqrt(0.9*0.1/250)
+pnorm(1.23)
+1-pnorm(1.23)
+pnorm(-2.11)
+qt(.05,11)
+qt(.01/2,16)
+qt(.01/2,16-1)
+2.8+2.947*1.2/sqrt(16)
+2.947*1.2/sqrt(16)
+2.8-2.947*1.2/sqrt(16)
+n1=8;mu1=38;v1=36;s1=sqrt(v1)
+n2=10;mu2=29;v2=16;s2=sqrt(v2)
+df=(v1/n1+v2/n2)^2/((v1/n1)^2/(n1-1)+(v2/n2)^2/(n2-1))
+df
+qt(.025,11)
+(m1-mu2)+2.201*sqrt(v1/n1+v2/n2)
+(mu1-mu2)+2.201*sqrt(v1/n1+v2/n2)
+(mu1-mu2)-2.201*sqrt(v1/n1+v2/n2)
+qnorm(0.05)
+qnorm(0.01)
+2.33^2*.2*.8/(0.03)^2
+qnorm(0.01)^2*.2*.8/(0.03)^2
+qnorm(0.01)^2
+2.33^2
+q5=matrix(c(23,46,282,407))
+q5
+q5=matrix(c(23,46,282,407),nrow=2)
+q5
+chisq.test(q5)
+aa=matrix(c(15,26,33,21,31,17,45,34,49,13,5,20),nrow=3)
+aa
+chisq.test(aa)
+qchisq(0.95,6)
+qchisq(0.9,1)
+q5
+chisq.test(q5)
+qt(1-.1,9)
+qt(.05,7-1)
+q6.1=c(5.1,3,12.1,6.2,11.5,7.8,2.2)
+q6.2=c(3.2,2.2,8.7,7.7,9.4,7.8,3.1)
+t.test(q6.1,q6.2,alternative = c("less"), paired=TRUE)
+t.test(q6.1,q6.2, paired=TRUE)
+t.test(q6.1-q6.2)
+q6.1
+q6.2
+q6.1-q6.2
+mean(q6.1-q6.2)/(sd(q6.1-q6.2)/sqrt(7))
+1-pt(1.25,7)
+0.1257339*2
+t.test(q6.1,q6.2,alternative = c("greater"), paired=TRUE)
+qt(1-.01/2,53)
+(1987-2056)/sqrt(85264/34+ 170569/31)
+qf(1-0.05,3,20)
+qf(1-0.05,3,64-4)
+0.957409896/(3.59201875/60)
+qt(1-.01,5-1)
+q9=c(89700,95900,92800,91400,93700)
+q9
+t.tet(q9-90000, alternative = "greater")
+t.test(q9-90000, alternative = "greater")
+(q9-90000)/(sd(q9)/sqrt(5))
+(mean(q9)-90000)/(sd(q9)/sqrt(5))
+16/40
+qnorm(1-.03/2)
+16/40+2.17*sqrt(.4*.6/40)
+16/40-2.17*sqrt(.4*.6/40)
+69.4833066-0.261940166*7.8+0.046144327*58.1+0.000124948*4530+0.276077144*1.8
+69.4833066-0.261940166*7.8+0.046144327*58.1+0.000124948*4530+0.276077144*1.8-70.55
+1-29.15596769/88.299002
+88.299002-29.15596769
+qf(4,50-4-1)
+qf(1-0.01,4,50-4-1)
+qf(1-0.01,4,40)
+((88.299002-29.15596769)/4)/(29.15596769/45)
+qt(1-0.05/2,45)
+0.276077144/0.310508086
+69.4833066-0.261940166*5+0.046144327*55+0.000124948*4000+0.276077144*1.2
+qt(1-0.01,45)
+2.412*0.804928785
+71.54263+2.412*0.804928785
+71.54263-2.412*0.804928785
+-1050 + 250*85 + 5400
+aa2=matrix(c(28,22,22,28),2)
+aa2
+prop.test(aa2)
+chisq.test(aa2)
+28/50
+22/50
+pchisq(1,1)
+1-pchisq(1,1)
+b=chisq.test(aa2)
+names(b)
+b$stat
+aa2
+586.8/2
+75*16
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="ROT", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name);#
+	}#
+  Wout = CheckValidity(W);#
+  W=Wout$W; nW=Wout$nW; name=Wout$name;#
+  if(any(msigma<=0))stop("Standard deviations should be positive.");#
+  if(length(msigma)!=1 && length(msigma)!=length(W))#
+    stop("The length of 'msigma' has problems.");#
+  if (nW < 10) #
+    stop("The sample size is too small!")#
+#
+  if(missing(x)){#
+	  if (missing(from)) #
+	    from <- min(W)#
+	  if (missing(to)) #
+	    to <- max(W)#
+	  if (!is.finite(from)) #
+	    stop("non-finite 'from'")#
+	  if (!is.finite(to)) #
+	    stop("non-finite 'to'")#
+	  if(from >= to){#
+	    stop("'from' is not smaller than 'to'!");#
+	  }else{#
+	    tt=seq(from, to, length=n.user);#
+	  }#
+  }else{#
+	tt=sort(as.vector(x));#
+	}#
+	#
+		#dy <- sd(Y)/20 #
+		#tt <- seq(min(Y)-dy, max(Y)+dy, length = n.user) #
+	if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	#
+	return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+	return((bw.SJ(x)/msigma.bar)^2)#
+	}#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+N <- 1000#
+X3 <- c(rnorm(N/2, mean=-2), rnorm(N/2,mean=2))#
+U3 <- rnorm(N,sd=1)#
+msigma3 <- runif(N,min=0.3,max=0.5)#
+Y3 <- X3+msigma3*U3#
+#postscript("llength_effect.eps", paper="letter")#
+par(mfrow=c(2,2))#
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=1)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))#
+#
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=3)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))#
+#
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))#
+#
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=50)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+density.default
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule"))#
+	return((h0/msigma.bar)^2)#
+	}
+W
+w
+lambda.simex.density(W,msigma)
+lambda.simex.density(Y3,msigma3)
+lambda.simex.density(Y3,msigma3,method="nrd0")
+lambda.simex.density(Y3,msigma3,method="nrd")
+lambda.simex.density(Y3,msigma3,method="ucv")
+lambda.simex.density(Y3,msigma3,method="bcv")
+lambda.simex.density(Y3,msigma3,method="sj")
+lambda.simex.density(Y3,msigma3,method="SJ-ste")
+lambda.simex.density(Y3,msigma3,method="SJ-dpi")
+lambda.simex.density(Y3,msigma3,method="SJ-dpi1")
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="ROT", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name);#
+	}#
+	Wout = CheckValidity(W);#
+	W=Wout$W; nW=Wout$nW; name=Wout$name;#
+	if(any(msigma<=0))stop("Standard deviations should be positive.");#
+	if(length(msigma)!=1 && length(msigma)!=length(W))#
+	  stop("The length of 'msigma' has problems.");#
+	if (nW < 10) #
+	  stop("The sample size is too small!")#
+#
+	if(missing(x)){#
+	 if (missing(from)) #
+	   from <- min(W)#
+	 if (missing(to)) #
+	   to <- max(W)#
+	 if (!is.finite(from)) #
+	   stop("non-finite 'from'")#
+	 if (!is.finite(to)) #
+	   stop("non-finite 'to'")#
+	 if(from >= to){#
+	   stop("'from' is not smaller than 'to'!");#
+	 }else{#
+	   tt=seq(from, to, length=n.user);#
+	 }#
+	}else{#
+	   tt=sort(as.vector(x));#
+	}#
+	#
+	#if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				sj-ste = lambda.simex.density(W,msigma, method="sj-ste"), #
+				sj-dpi = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }#
+    if (!is.finite(lambda) | lambda <= 0) #
+        stop("non-positive or non-finite 'lambda'!")#
+    #
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	#
+	return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule!"))#
+	return((h0/msigma.bar)^2)#
+	}#
+#
+#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="ROT", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name);#
+	}#
+	Wout = CheckValidity(W);#
+	W=Wout$W; nW=Wout$nW; name=Wout$name;#
+	if(any(msigma<=0))stop("Standard deviations should be positive.");#
+	if(length(msigma)!=1 && length(msigma)!=length(W))#
+	  stop("The length of 'msigma' has problems.");#
+	if (nW < 10) #
+	  stop("The sample size is too small!")#
+#
+	if(missing(x)){#
+	 if (missing(from)) #
+	   from <- min(W)#
+	 if (missing(to)) #
+	   to <- max(W)#
+	 if (!is.finite(from)) #
+	   stop("non-finite 'from'")#
+	 if (!is.finite(to)) #
+	   stop("non-finite 'to'")#
+	 if(from >= to){#
+	   stop("'from' is not smaller than 'to'!");#
+	 }else{#
+	   tt=seq(from, to, length=n.user);#
+	 }#
+	}else{#
+	   tt=sort(as.vector(x));#
+	}#
+	#
+	#if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }#
+    if (!is.finite(lambda) | lambda <= 0) #
+        stop("non-positive or non-finite 'lambda'!")#
+    #
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	#
+	return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule!"))#
+	return((h0/msigma.bar)^2)#
+	}#
+#
+#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+N <- 1000#
+X3 <- c(rnorm(N/2, mean=-2), rnorm(N/2,mean=2))#
+U3 <- rnorm(N,sd=1)#
+msigma3 <- runif(N,min=0.3,max=0.5)#
+Y3 <- X3+msigma3*U3
+par(mfrow=c(2,2))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="ROT",adjust=1, n.lambda=50, llength=1)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="SJ",adjust=1, n.lambda=50, llength=1)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="sj",adjust=1, n.lambda=50, llength=1)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="ucv",adjust=1, n.lambda=50, llength=1)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+lambda="nrd0"
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }
+W=Y3
+msigma=msigma3
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }
+start
+if (!is.finite(lambda) | lambda <= 0)
+stop("non-positive or non-finite 'lambda'!")
+(!is.finite(lambda) | lambda <= 0)
+(!is.finite(lambda))
+    if (!is.finite(start) | start <= 0) #
+        stop("non-positive or non-finite 'lambda'!")
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="ROT", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name);#
+	}#
+	Wout = CheckValidity(W);#
+	W=Wout$W; nW=Wout$nW; name=Wout$name;#
+	if(any(msigma<=0))stop("Standard deviations should be positive.");#
+	if(length(msigma)!=1 && length(msigma)!=length(W))#
+	  stop("The length of 'msigma' has problems.");#
+	if (nW < 10) #
+	  stop("The sample size is too small!")#
+#
+	if(missing(x)){#
+	 if (missing(from)) #
+	   from <- min(W)#
+	 if (missing(to)) #
+	   to <- max(W)#
+	 if (!is.finite(from)) #
+	   stop("non-finite 'from'")#
+	 if (!is.finite(to)) #
+	   stop("non-finite 'to'")#
+	 if(from >= to){#
+	   stop("'from' is not smaller than 'to'!");#
+	 }else{#
+	   tt=seq(from, to, length=n.user);#
+	 }#
+	}else{#
+	   tt=sort(as.vector(x));#
+	}#
+	#
+	#if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }#
+    if (!is.finite(start) | start <= 0) #
+        stop("non-positive or non-finite 'lambda'!")#
+    #
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	#
+	return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule!"))#
+	return((h0/msigma.bar)^2)#
+	}#
+#
+#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="SJ",adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="nrd",adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="ucv",adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="bcv",adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="SJ", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name);#
+	}#
+	Wout = CheckValidity(W);#
+	W=Wout$W; nW=Wout$nW; name=Wout$name;#
+	if(any(msigma<=0))stop("Standard deviations should be positive.");#
+	if(length(msigma)!=1 && length(msigma)!=length(W))#
+	  stop("The length of 'msigma' has problems.");#
+	if (nW < 10) #
+	  stop("The sample size is too small!")#
+#
+	if(missing(x)){#
+	 if (missing(from)) #
+	   from <- min(W)#
+	 if (missing(to)) #
+	   to <- max(W)#
+	 if (!is.finite(from)) #
+	   stop("non-finite 'from'")#
+	 if (!is.finite(to)) #
+	   stop("non-finite 'to'")#
+	 if(from >= to){#
+	   stop("'from' is not smaller than 'to'!");#
+	 }else{#
+	   tt=seq(from, to, length=n.user);#
+	 }#
+	}else{#
+	   tt=sort(as.vector(x));#
+	}#
+	#
+	#if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }#
+    if (!is.finite(start) | start <= 0) #
+        stop("non-positive or non-finite 'lambda'!")#
+    #
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	#
+	return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule!"))#
+	return((h0/msigma.bar)^2)#
+	}#
+#
+#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda="sj-dpi", adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+X.simex3 <- simex.density(Y3, msigma=msigma3, lambda=1, adjust=1, n.lambda=50, llength=10)#
+plot.simex.density(X.simex3,X3,ylim=c(0,0.3))
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="SJ", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name);#
+	}#
+	Wout = CheckValidity(W);#
+	W=Wout$W; nW=Wout$nW; name=Wout$name;#
+	if(any(msigma<=0))stop("Standard deviations should be positive.");#
+	if(length(msigma)!=1 && length(msigma)!=length(W))#
+	  stop("The length of 'msigma' has problems.");#
+	if (nW < 10) #
+	  stop("The sample size is too small!")#
+#
+	if(missing(x)){#
+	 if (missing(from)) #
+	   from <- min(W)#
+	 if (missing(to)) #
+	   to <- max(W)#
+	 if (!is.finite(from)) #
+	   stop("non-finite 'from'")#
+	 if (!is.finite(to)) #
+	   stop("non-finite 'to'")#
+	 if(from >= to){#
+	   stop("'from' is not smaller than 'to'!");#
+	 }else{#
+	   tt=seq(from, to, length=n.user);#
+	 }#
+	}else{#
+	   tt=sort(as.vector(x));#
+	}#
+	#
+	#if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }#
+    if (!is.finite(start) | start <= 0) #
+        stop("non-positive or non-finite 'lambda'!")#
+    #
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	fhat <- simex.est/simex.int#
+	#
+	return(structure(list(x = tt, fhat = fhat, lambda1 = start, lambda.length=llength, n = N,#
+                        call = match.call(), data.name = name,#
+                        has.na = FALSE), class = "NPsimex"))#
+  #
+	#return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule!"))#
+	return((h0/msigma.bar)^2)#
+	}#
+#
+#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+X3 <- c(rnorm(N/2, mean=-2), rnorm(N/2,mean=2))#
+U3 <- rnorm(N,sd=1)#
+msigma3 <- runif(N,min=0.3,max=0.5)#
+Y3 <- X3+msigma3*U3#
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)
+X.simex3
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="SJ", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name);#
+	}#
+	Wout = CheckValidity(W);#
+	W=Wout$W; nW=Wout$nW; name=Wout$name;#
+	if(any(msigma<=0))stop("Standard deviations should be positive.");#
+	if(length(msigma)!=1 && length(msigma)!=length(W))#
+	  stop("The length of 'msigma' has problems.");#
+	if (nW < 10) #
+	  stop("The sample size is too small!")#
+#
+	if(missing(x)){#
+	 if (missing(from)) #
+	   from <- min(W)#
+	 if (missing(to)) #
+	   to <- max(W)#
+	 if (!is.finite(from)) #
+	   stop("non-finite 'from'")#
+	 if (!is.finite(to)) #
+	   stop("non-finite 'to'")#
+	 if(from >= to){#
+	   stop("'from' is not smaller than 'to'!");#
+	 }else{#
+	   tt=seq(from, to, length=n.user);#
+	 }#
+	}else{#
+	   tt=sort(as.vector(x));#
+	}#
+	#
+	#if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }#
+    if (!is.finite(start) | start <= 0) #
+        stop("non-positive or non-finite 'lambda'!")#
+    #
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	fhat <- simex.est/simex.int#
+	#
+	return(structure(list(x = tt, fhat = fhat, lambda1 = start, lambda.length=llength, n.lambda=n.lambda, n = N,#
+                        call = match.call(), data.name = name,#
+                        has.na = any(W.na)), class = "NPsimex"))#
+  #
+	#return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule!"))#
+	return((h0/msigma.bar)^2)#
+	}#
+#
+#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+## Non-Parametric density estimation for data with measurement error using SIMEX#
+## Xiaofeng Wang#
+## wangx6@ccf.org#
+## Cleveland Clinic Foundation#
+#
+simex.density <- function(W, msigma, x, from, to, n.user=128, n.lambda=50, lambda="SJ", llength=8, adjust=1, na.rm = FALSE, ...){#
+	CheckValidity <- function(W,na.rm){#
+	    if (!is.numeric(W)) #
+	      stop("argument 'W' must be numeric")#
+	    name <- deparse(substitute(W))#
+	    W <- as.vector(W)#
+	    W.na <- is.na(W)#
+	    if (any(W.na)) {#
+	      if (na.rm)  W <- W[!W.na]#
+	      else stop("'W' contains missing values")#
+	    }#
+	    W.finite <- is.finite(W)#
+	    if (any(!W.finite)) {#
+	      W <- W[W.finite]#
+	    }#
+	    nW <- length(W)#
+	    list(W=W,nW=nW,name=name, has.na=any(W.na));#
+	}#
+	Wout = CheckValidity(W);#
+	W=Wout$W; nW=Wout$nW; name=Wout$name; has.na=Wout$has.na#
+	if(any(msigma<=0))stop("Standard deviations should be positive.");#
+	if(length(msigma)!=1 && length(msigma)!=length(W))#
+	  stop("The length of 'msigma' has problems.");#
+	if (nW < 10) #
+	  stop("The sample size is too small!")#
+#
+	if(missing(x)){#
+	 if (missing(from)) #
+	   from <- min(W)#
+	 if (missing(to)) #
+	   to <- max(W)#
+	 if (!is.finite(from)) #
+	   stop("non-finite 'from'")#
+	 if (!is.finite(to)) #
+	   stop("non-finite 'to'")#
+	 if(from >= to){#
+	   stop("'from' is not smaller than 'to'!");#
+	 }else{#
+	   tt=seq(from, to, length=n.user);#
+	 }#
+	}else{#
+	   tt=sort(as.vector(x));#
+	}#
+	#
+	#if (lambda == "ROT") start <- lambda.simex.density(W,msigma)#
+	if (is.character(lambda)) {#
+        start <- switch(tolower(lambda), #
+				nrd0 = lambda.simex.density(W,msigma, method="nrd0"), #
+				nrd = lambda.simex.density(W,msigma, method="nrd"), #
+            	ucv = lambda.simex.density(W,msigma, method="ucv"), #
+				bcv = lambda.simex.density(W,msigma, method="bcv"), #
+				sj = lambda.simex.density(W,msigma, method="sj"), #
+				`sj-ste` = lambda.simex.density(W,msigma, method="sj-ste"), #
+				`sj-dpi` = lambda.simex.density(W,msigma, method="sj-dpi"), #
+            	stop("unknown bandwidth rule"))#
+    }#
+    if (!is.finite(start) | start <= 0) #
+        stop("non-positive or non-finite 'lambda'!")#
+    #
+	start <- adjust * start#
+	end <- start+llength#
+	lambda <- seq(start,end,length=n.lambda)#
+	What <- matrix(0,nrow=length(tt),ncol=n.lambda)#
+	ker <- function(x,t,b){mean(dnorm((t-x)/b)/b)}#
+	for (i in 1:n.lambda) {#
+		What[,i] <- apply(matrix(tt, ncol=1),1,ker,x=W, b=msigma*sqrt(lambda[i]))#
+ 	}#
+	What <- t(What)#
+	#
+	simex1.est <- function(y,lambda){#
+		a <- lm(y~lambda+I(lambda^2))#
+		est <- a$coeff[1]-a$coeff[2]+a$coeff[3]#
+		return(est)#
+		}#
+	simex.est <- apply(as.matrix(What),2,simex1.est,lambda=lambda)#
+	simex.est[simex.est<0]  <- 0#
+	trapez.int <- function(x,y){#
+	  if (length(x) != length(y)) stop("error in the input data!")#
+	  n <- length(x)#
+	  int <- (x[n]-x[1])/(n-1)*(sum(y)-(y[1]+y[n])/2)#
+	  return(int)#
+	}#
+	simex.int <- trapez.int(tt,simex.est)#
+	fhat <- simex.est/simex.int#
+	#
+	return(structure(list(x = tt, fhat = fhat, lambda1 = start, lambda.length=llength, n.lambda=n.lambda, n = N,#
+                        call = match.call(), data.name = name,#
+                        has.na = has.na), class = "NPsimex"))#
+  #
+	#return(list(x=tt, fhat = simex.est/simex.int)) #
+}#
+#
+#
+lambda.simex.density <- function(x,msigma, method="SJ", na.rm = FALSE, ...){#
+    if (length(list(...)) > 0) #
+        warning("non-matched further arguments are disregarded")#
+    if (!is.numeric(x)) #
+        stop("argument 'x' must be numeric")#
+    name <- deparse(substitute(x))#
+    x <- as.vector(x)#
+    x.na <- is.na(x)#
+    if (any(x.na)) {#
+        if (na.rm) #
+            x <- x[!x.na]#
+        else stop("'x' contains missing values")#
+    }#
+    N <- nx <- length(x)#
+    x.finite <- is.finite(x)#
+    if (any(!x.finite)) {#
+        x <- x[x.finite]#
+        nx <- length(x)#
+    }#
+    msigma.bar <- mean(msigma)#
+    h0 <- switch(tolower(method), nrd0 = bw.nrd0(x), nrd = bw.nrd(x), #
+        ucv = bw.ucv(x), bcv = bw.bcv(x), sj = , `sj-ste` = bw.SJ(x, #
+            method = "ste"), `sj-dpi` = bw.SJ(x, method = "dpi"), #
+        stop("unknown bandwidth rule!"))#
+	return((h0/msigma.bar)^2)#
+	}#
+#
+#
+#
+plot.simex.density <- function(X.simex,X,...){#
+	plot(X.simex$x, X.simex$fhat, type="l", xlab="x", ylab="density", lwd=3, lty=2, col=2,...)#
+	lines(density(X, bw="SJ"), lwd=3)#
+	}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)
+X.simex3
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+print.NPsimex <- function (x, digits = NULL, ...) #
+{#
+    cat("\nCall:\n\t", deparse(x$call), "\n\nData: ", x$data.name, #
+        " (", x$n, " obs.);", "\tBandwidth 'bw' = ", formatC(x$lambda1, #
+            digits = digits), "\n\n", sep = "")#
+    print(summary(as.data.frame(x[c("x", "fhat")])), digits = digits, #
+        ...)#
+    invisible(x)#
+}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)
+X.simex3
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+print.NPsimex <- function (x, digits = NULL, ...) #
+{#
+    cat("\nCall:\n\t", deparse(x$call), "\n\nData: ", x$data.name, #
+        " (", x$n, " obs.);", "\t lambda1 = ", formatC(x$lambda1, #
+            digits = digits), "\t lambda length = ", formatC(x$lambda.length, #
+	            digits = digits), "\n\n", sep = "")#
+    print(summary(as.data.frame(x[c("x", "fhat")])), digits = digits, #
+        ...)#
+    invisible(x)#
+}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+X.simex1 <- simex.density(Y1, msigma=msigma1, adjust=1, n.lambda=50, llength=20)
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software')
+X.simex3 <- simex.density(Y3, msigma=msigma3, adjust=1, n.lambda=50, llength=10)
+X.simex3
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+print.NPsimex <- function (x, digits = NULL, ...) #
+{#
+    cat("\nCall:\n\t", deparse(x$call), "\n\nData: ", x$data.name, #
+        " (", x$n, " obs.);", "\t lambda1 = ", formatC(x$lambda1, #
+            digits = digits)";", "\t lambda length = ", formatC(x$lambda.length, #
+	            digits = digits), "\n\n", sep = "")#
+    print(summary(as.data.frame(x[c("x", "fhat")])), digits = digits, #
+        ...)#
+    invisible(x)#
+}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+print.NPsimex <- function (x, digits = NULL, ...) #
+{#
+    cat("\nCall:\n\t", deparse(x$call), "\n\nData: ", x$data.name, #
+        " (", x$n, " obs.);", "\t lambda1 = ", formatC(x$lambda1, #
+            digits = digits), "\t lambda length = ", formatC(x$lambda.length, #
+	            digits = digits), "\n\n", sep = "")#
+    print(summary(as.data.frame(x[c("x", "fhat")])), digits = digits, #
+        ...)#
+    invisible(x)#
+}
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+print.NPsimex <- function (x, digits = NULL, ...) #
+{#
+    cat("\nCall:\n\t", deparse(x$call), "\n\nData: ", x$data.name, #
+        " (", x$n, " obs.);", "\t lambda1 = ", formatC(x$lambda1, #
+            digits = digits), "\t;", "\t lambda length = ", formatC(x$lambda.length, #
+	            digits = digits), "\n\n", sep = "")#
+    print(summary(as.data.frame(x[c("x", "fhat")])), digits = digits, #
+        ...)#
+    invisible(x)#
+}
+X.simex3
+setwd('/Users/wangx6/Dropbox/Research/merror/Density_Simex/software/NPsimex')
+print.NPsimex <- function (x, digits = NULL, ...) #
+{#
+    cat("\nCall:\n\t", deparse(x$call), "\n\nData: ", x$data.name, #
+        " (", x$n, " obs.);", "\t lambda1 = ", formatC(x$lambda1, #
+            digits = digits),"\t;", "\t lambda length = ", formatC(x$lambda.length, #
+	            digits = digits), "\n\n", sep = "")#
+    print(summary(as.data.frame(x[c("x", "fhat")])), digits = digits, #
+        ...)#
+    invisible(x)#
+}
+X.simex3

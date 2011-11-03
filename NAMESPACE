@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(NPsimex)
+
+# functions
+export(simex.density, simex.H.density, lambda.select, print.NPsimex, plot.NPsimex, span.select, span.H.select)
+
+
+S3method(print, NPsimex)
+S3method(plot, NPsimex)

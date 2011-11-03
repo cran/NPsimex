@@ -1,0 +1,15 @@
+036306170f7d160559a88a739c936985 *DESCRIPTION
+8f0e2cd40e05189ec81232da84bd6e1a *LICENSE
+c27cb87dedd41abb15d4f608ce7d13f8 *NAMESPACE
+f63f88e3b778bc5a3ca49cae59ffd27d *NEWS
+3dbe9e0d0c0c682eb2c08ad530bc88b9 *R/NPsimex.R
+2f1028971e241b8983677f4ef8df5403 *R/onload.R
+8c78376958ec2218739b5c586ad1d3be *inst/script/Example_codes.R
+06d9c2e6619fd04e2dc99df1ebf74490 *man/lambda.select.Rd
+543271bfef13256a8fd75526d9c65452 *man/plot.NPsimex.Rd
+fef846588978086498031b7296518662 *man/print.NPsimex.Rd
+97a7f4630e4e09f43a19ff13a0d012a6 *man/simex.H.density.Rd
+577ccdf1c5a36dd67c875e700c63a7ae *man/simex.density.Rd
+632c51a2b9a5f645007f241f030ca6d6 *man/span.H.select.Rd
+2b8dc7bfd607fb94a308296c547ca377 *man/span.select.Rd
+715a8286e29242a526079886ca9bce42 *src/SimexKern.c
